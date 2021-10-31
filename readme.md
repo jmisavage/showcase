@@ -7,3 +7,9 @@ I worked for a lot of clients over my career.  A lot of time I couldn't share th
 [Jetpack Elf](2012/jetpack-elf/index.html)
 
 An elf for a 2012 holiday site.  The original version used an early version of GSAP to do the swaying and bopping of the elf.  I've since converted it to standard css. In the large project she would fly around the screen as you interacted with elements.  A simple animation, but it still brings joy.
+
+## 2017
+
+[Tiny Room](2017/tinyroom/)
+
+I'm super proud of this one.  I was able to take a room customization tool that I wrote for a website and shrink it down to fit inside a banner ad.
