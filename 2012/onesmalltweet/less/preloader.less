@@ -1,0 +1,85 @@
+#preloader {
+
+	position: absolute;
+	width: 220px;
+	height: 480px;
+
+	left: 50%;
+	margin-left: -110px;
+
+	top: 50%;
+	margin-top: -240px;
+
+	.moon{
+		width: 62px;
+		height: 62px;
+		left: 50%;
+		margin-left: -31px;
+
+		top: 30px;
+
+		background-image: url('https://s3.amazonaws.com/one-small-tweet/images/moon_sm.png');
+	}
+
+	.earth{
+		width: 90px;
+		height: 89px;
+		left: 50%;
+		margin-left: -45px;
+
+		bottom:28px;
+
+		background: url('https://s3.amazonaws.com/one-small-tweet/images/earth_sm.png') no-repeat bottom center;
+	}
+
+	.loaded,
+	.distance{
+		position: absolute;
+		width:150px;
+
+		font-family: "tandelle", helvetica, sans-serif;
+		//font-family: HelveticaNeue, "Helvetica Neue", helvetica, sans-serif;
+		font-size: 22px;
+		font-style: normal;
+		font-wight: 400;
+		color:#ffffff;
+
+		text-align: right;
+
+	}
+
+	.distance{
+		top: 171px;
+		left: 111px;
+
+		text-transform: uppercase;
+
+		line-height: normal;
+	}
+
+	.loaded{
+		display: block;
+		top: 205px;
+
+		height:14px;
+		left: 50%;
+	}
+
+	#preroute {
+		position: absolute;
+
+		width: 220px;
+		height: 480px;
+
+		//width: 21px;
+		//height: 315px;
+
+		//left: 50%;
+		//margin-left: 95px;
+
+		//top: 0px;
+
+		z-index: 10;
+	}
+
+}

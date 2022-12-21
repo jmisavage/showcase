@@ -1,0 +1,58 @@
+
+#rule{
+	display:none;
+	position: fixed;
+	top: 20px;
+	bottom: 40px;
+	right:0;
+
+	width: 10px;
+
+	overflow: visible;
+	opacity: 0.5;
+
+	div{
+		position: absolute;
+		right:0;
+		padding-right: 35px;
+		margin-top: -6px;
+
+		font-family: HelveticaNeue, "Helvetica Neue", helvetica, sans-serif;
+		font-size:11px;
+		font-style: normal;
+		text-align: right;
+		color:white;
+
+		background: url('https://s3.amazonaws.com/one-small-tweet/images/tick_lg.png') no-repeat right center;
+		height: 12px;
+
+		&.tick1{
+			top: 0px;
+		}
+		&.tick2{
+			top: 20%;
+		}
+		&.tick3{
+			top: 40%;
+		}
+		&.tick4{
+			top: 60%;
+		}
+		&.tick5{
+			top: 80%;
+		}
+		&.tick6{
+			top: 100%;
+		}
+	}
+
+	span {
+		position: absolute;
+		right:0;
+
+		width:10px;
+		height: 1px;
+
+		background: url('https://s3.amazonaws.com/one-small-tweet/images/tick_lg.png') no-repeat right center;
+	}
+}

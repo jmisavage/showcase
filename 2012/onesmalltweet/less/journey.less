@@ -1,0 +1,145 @@
+@height: 2389px * 60px;
+
+#journey {
+	display: none;
+	position: relative;
+	height: @height + 360px;
+	width: 100%;
+	
+	#route {
+		position: absolute;
+		top: 60px;
+		left: 50%;
+		z-index: 10;
+
+		opacity: 0.1;
+
+		width: 800px;
+		height: @height + 180px;
+		margin-left: -400px;
+		overflow: hidden;
+	}
+	
+	#tweet {
+		display: none;
+		position: fixed;
+		top: 200px;
+		right:150px;
+		z-index: 20 !important;
+		
+		width: 220px;
+		
+		.newer {
+			top: 0px;
+			cursor: pointer;
+		}
+		
+		.older {
+			bottom: 0px;
+			cursor: pointer;
+		}
+		
+		.message {
+			min-height: 220px;
+			margin: 30px 0px;
+			padding: 20px 0px;
+			border-top: 1px solid rgba(255,255,255,0.3);
+			border-bottom: 1px solid rgba(255,255,255,0.3);
+		}
+		
+		.user {
+			color: #00aeef;
+			text-decoration: none;
+		}
+		
+		.hashtag {
+			color: #a1a1a1;
+			text-decoration: none;
+		}
+
+		
+		.miles {
+			margin-bottom: 14px;
+			text-transform: uppercase;
+			font-style: normal;
+			font-family: "tandelle", helvetica, sans-serif;
+			//font-family: HelveticaNeue, "Helvetica Neue", helvetica, sans-serif;
+			font-size: 30px;
+			line-height: normal;
+			-webkit-font-smoothing: antialiased;
+		}
+	}
+	
+	.moon {
+		position: absolute;
+		top: 0px;
+		left: 50%;
+		z-index: 5;
+	
+		margin-top: -940px;
+	}
+	
+	.earth {
+		position: absolute;
+		bottom: 0px;
+		left: 50%;
+		margin-left: -720px;
+	}
+	
+	#extras {
+		position: fixed;
+		top: 0px;
+		left: 0px;
+		height: 6000px;
+		width: 100%;
+	}
+	
+	#extras2 {
+		position: fixed;
+		top: 0px;
+		left: 0px;
+		height: 7000px;
+		width: 100%;
+	}
+	
+	.starfield {
+		bottom: auto;
+		height: 6000px;
+		top: 0px;
+	}
+	
+	#bg1 {
+		top: 10%;
+		left: 50%;
+		margin-left: -100px;
+	}
+	
+	#bg2 {
+		top: 25%;
+		left: 50%;
+		margin-left: -550px;
+		opacity: 0.5;
+	}
+	
+	#bg3 {
+		top: 43%;
+		left: 50%;
+		margin-left: -1000px;
+	}
+	
+	#bg4 {
+		top: 60%;
+		left: 50%;
+		margin-left: 200px;
+		opacity: 0.6;
+	}
+	
+	#bg5 {
+		top: 75%;
+		left: 50%;
+		margin-left: -0px;
+		-webkit-transform: deg(50deg);
+		   -moz-transform: deg(50deg);
+		    -ms-transform: deg(50deg);
+	}
+}
