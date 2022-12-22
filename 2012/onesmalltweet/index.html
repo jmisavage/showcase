@@ -1,0 +1,140 @@
+<!--
+                 ____
+                /___.`--.____ .--. ____.--(
+                       .'_.- (    ) -._'.
+                     .'.'    |'..'|    '.'.
+              .-.  .' /'--.__|____|__.--'\ '.  .-.
+             (O).)-| |  \    |    |    /  | |-(.(O)
+              `-'  '-'-._'-./      \.-'_.-'-'  `-'
+                 _ | |   '-.________.-'   | | _
+              .' _ | |     |   __   |     | | _ '.
+             / .' ''.|     | /    \ |     |.'' '. \
+             | |( )| '.    ||      ||    .' |( )| |
+             \ '._.'   '.  | \    / |  .'   '._.' /
+              '.__ ______'.|__'--'__|.'______ __.'
+             .'_.-|         |------|         |-._'.
+            //\\  |         |--::--|         |  //\\
+           //  \\ |         |--::--|         | //  \\
+          //    \\|        /|--::--|\        |//    \\
+         / '._.-'/|_______/ |--::--| \_______|\`-._.' \
+        / __..--'        /__|--::--|__\        `--..__ \
+       / /               '-.|--::--|.-'               \ \
+      / /                   |--::--|                   \ \
+     / /                    |--::--|                    \ \
+ _.-'  `-._                 _..||.._                  _.-` '-._
+'--..__..--' LGB           '-.____.-'                '--..__..-'
+
+ASCII ART BY:
+http://www.chris.com/ascii/index.php?art=transportation/space%20ships
+
+
+One small tweet for mankind... may the tweet be with you. -- Martin Make & Break
+-->
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	
+	<title>One Small Tweet</title>
+	<link rel="stylesheet" type="text/css" href="css/app.css" media="screen">
+</head>
+<body>
+
+	<div id="background" class="scrollblock">
+		<div class="starfield"></div>
+	</div>
+
+	<div id="onesmalltweet">
+		<div id="preloader">
+			<div class="moon"></div>
+			<div class="earth"></div>
+			<div class="distance"><span></span> MILES TO GO</div>
+			<div class="loaded">LOADING</div>
+			<div id="preroute"></div>
+		</div>
+
+		<div id="menu">
+			<div class="moon"></div>
+			<div class="earth"></div>
+		</div>
+
+		<div id="journey" class="scrollblock">
+			<div id="route"></div>
+			<div class="moon"></div>
+			<div class="earth"></div>
+			<div id="tweet">
+				<div class="newer"></div>
+				<div class="message"></div>
+				<div class="older"></div>
+			</div>
+
+			<div id="extras">
+				<div id="starfield"></div>
+			</div>
+			<div id="extras2">
+				<div id="bg1" class="stars1"></div>
+				<div id="bg2" class="stars2"></div>
+				<div id="bg3" class="stars1"></div>
+				<div id="bg4" class="stars2"></div>
+				<div id="bg5" class="stars1"></div>
+			</div>
+		</div>
+	</div>
+
+	<!-- Fixed Assets -->
+	<div id="title">
+		<div class="blurb">
+			With one small step in 1969, Neil Armstrong took one giant leap for mankind.<br>
+			Now honor his journey, and his life, by tweeting a dedication and tagging it <a href="https://twitter.com/#!/search/%23onesmalltweet" target="_blank">#onesmalltweet</a>.<br>
+			Each tweet gets us 100 miles closer to the moon, <br>
+			and one step closer to a giant tribute.
+		</div>
+		
+		<div class="start"></div>
+	</div>
+
+	<div id="tweetbutton">
+		<a href="https://twitter.com/intent/tweet?hashtags=onesmalltweet">Tweet</a>
+	</div>
+
+	<div id="rule">
+		<div class="tick1">238,855</div>
+		<div class="tick2">200,000</div>
+		<div class="tick3">150,000</div>
+		<div class="tick4">100,000</div>
+		<div class="tick5">50,000</div>
+		<div class="tick6">0</div>
+	</div>
+
+	<script type="text/javascript" src="//platform.twitter.com/widgets.js"></script>
+	<script type="text/javascript" src="js/lib/greensock/TweenMax.min.js"></script>
+	<script type="text/javascript" src="js/lib/jquery-1.8.0.min.js"></script>
+	<script type="text/javascript" src="js/lib/jquery.scrollorama.js"></script>
+	<script type="text/javascript" src="js/lib/raphael.js"></script>
+	<script type="text/javascript" src="js/app.dev.js"></script>
+	<script type="text/javascript" src="//use.typekit.net/lnk4yhl.js"></script>
+	<script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+	<script type="text/javascript">
+		$(document).ready(main);
+	</script>
+	<script type="text/javascript">
+/**********
+
+ UNCOMMENT FOR PRODUCTION
+
+		var _gaq = _gaq || [];
+		_gaq.push(['_setAccount', 'UA-XXXXX-Y']);
+		_gaq.push(['_trackPageview']);
+
+		(function() {
+			var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+			ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+			var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+		})();
+*********/
+	</script>
+
+
+</body>
+</html>
+
