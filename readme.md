@@ -12,6 +12,12 @@ An elf for a 2012 holiday site.  The original version used an early version of G
 
 Shortly after Neil Armstrong passed away a couple of coworkers got together to build a tribute site to honor his legacy. We allowed people to tweet tribute messages and displayed them on the journey to the moon. I had a lot of fun building the frontend and creating raw SVG code to make an interesting looking path.  Unfortunately I don't have the final dataset or the server side API code any more.
 
+## 2016
+
+[Penske Moving Day](2016/moving-day-ola/)
+
+This was a very early HTML5 banner. Creating engaging animations without using third-party libraries due to size constraints was a challenge.  Just like de-minifying this file to make it human readable again. The golf ball animates along the path of a SVG curve and uses a sprite sheet to animate the golf ball itself. It might feel like an overkill, but there where several other size banners that used nearly identical animation code.
+
 ## 2017
 
 [Tiny Room](2017/tinyroom/)
